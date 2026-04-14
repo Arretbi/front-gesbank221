@@ -8,7 +8,7 @@ import type {
   InteretsResponse,
 } from '@/types/compte';
 
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://backend-gesbank221.onrender.com';
 
 async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE_URL}${path}`, {

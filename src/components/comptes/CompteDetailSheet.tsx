@@ -144,7 +144,7 @@ export function CompteDetailSheet({
               </div>
               {compte.type === 'courant' && (
                 <div className="space-y-2">
-                  <Label htmlFor="edit-decouvert">Découvert autorisé (€)</Label>
+                  <Label htmlFor="edit-decouvert">Découvert autorisé (FCFA)</Label>
                   <Input
                     id="edit-decouvert"
                     type="number"

@@ -110,7 +110,7 @@ export function OperationDialog({
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="montant">Montant (€)</Label>
+              <Label htmlFor="montant">Montant (FCFA)</Label>
               <Input
                 id="montant"
                 type="number"

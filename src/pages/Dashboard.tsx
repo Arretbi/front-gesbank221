@@ -20,7 +20,7 @@ export function Dashboard() {
     try {
       const result = await banqueApi.appliquerInterets();
       toast.success(
-        `Intérêts appliqués : +${result.total_gains.toFixed(2)} € sur ${result.comptes_mis_a_jour} compte(s)`,
+        `Intérêts appliqués : +${result.total_gains.toFixed(0)} FCFA sur ${result.comptes_mis_a_jour} compte(s)`,
         { duration: 5000 }
       );
       await refresh();

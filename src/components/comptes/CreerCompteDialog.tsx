@@ -165,7 +165,7 @@ export function CreerCompteDialog({
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="solde-init">Solde initial (€)</Label>
+                <Label htmlFor="solde-init">Solde initial (FCFA)</Label>
                 <Input
                   id="solde-init"
                   type="number"
@@ -193,7 +193,7 @@ export function CreerCompteDialog({
             {/* Conditional fields */}
             {type === 'courant' && (
               <div className="space-y-2">
-                <Label htmlFor="decouvert">Découvert autorisé (€)</Label>
+                <Label htmlFor="decouvert">Découvert autorisé (FCFA)</Label>
                 <Input
                   id="decouvert"
                   type="number"
